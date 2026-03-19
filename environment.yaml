@@ -1,0 +1,10 @@
+name: binder-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - tensorflow=2.13
+  - pillow=9.5
+  - matplotlib
+  - ipywidgets
+  - pip
