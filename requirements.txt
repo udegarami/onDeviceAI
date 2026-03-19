@@ -1,20 +1,5 @@
-# Core numerical stack
-numpy>=1.23
-
-# TensorFlow (CPU version for Binder)
-tensorflow>=2.13,<2.20
-
-# Image handling
-Pillow>=8.0
-
-# Visualization
-matplotlib>=3.5
-
-# OpenCV (headless version for cloud environments like Binder)
-opencv-python-headless>=4.8
-
-# Jupyter widgets (for FileUpload)
-ipywidgets>=8.0
-
-# Optional but often required for notebooks
-ipykernel
+numpy==1.24.4
+tensorflow-cpu==2.13.0
+Pillow==10.0.1
+matplotlib==3.7.2
+ipywidgets==8.1.1
