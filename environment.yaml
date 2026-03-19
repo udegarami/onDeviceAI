@@ -3,8 +3,9 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - tensorflow=2.13
-  - pillow>=10
+  - pip
   - matplotlib
   - ipywidgets
-  - pip
+  - pillow>=10
+  - pip:
+      - tflite-runtime
